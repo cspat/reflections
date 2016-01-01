@@ -1,0 +1,39 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It shows the lines that were added or removed from the old version. 
+This makes it easier to know if a bug has been introduced in the new version. 
+
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+If you want to revert back to a old version at any point time, you could do that only if you have easy access. 
+Also, you can work on newer aspects of a program without having to worry about breaking the code as you can always revert back to the old version. 
+
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+In the case of manual commits, you have more sensible commits as you do it as and when needed. 
+In the case of automatic commits, the commits happen at specific intervals of time regardless of whether or not the commit makes a sensible change to the piece of code. 
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is made specifically for code, and since some/most programming languages deal with linking multiple files to make a single program work, it makes more sense for Git to be able to save 
+multiple files in one commit. 
+Others, like Google Docs, is made for general purpose use, and hence does not allow multiple files to be saved in one commit. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log shows all the commits made to the repository, showing the date and time along with it. 
+Using git diff allows the user to know the differences between any two given commits. 
+Combining both of the above commands in an efficient manner would make it easier for the user to access file history. 
+
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Version control allows the user to revert back to an older version if the user is not satisfied with the working of the newer version. 
+Hence, using version control makes the user more confident to make changes that could end up breaking something. 
