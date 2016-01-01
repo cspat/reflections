@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A new repository is created for the user. The user needs to keep a track of all the changes made to file/file(s) so that they can 
+revert back to an older version if the newer version is not working upto the mark. 
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area acts as a buffer. It is a place where the files can be temporarily moved before being committed. 
+It allows the user to to place multiple files in one place before committing all of it as a single commit.
